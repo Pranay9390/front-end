@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.buy-now {
+   
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Pranay{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Pranay h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.Pranay input {
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.start-trial {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.navbar {
+    background: #ffffff;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #fff;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.dropdown-menu li {
+    padding: 8px 15px;
+}
+
+.dropdown-menu a {
+    color: #222;
+    display: block;
+    padding: 8px 15px;
+}
+
+.dropdown-menu a:hover, .dropdown-menu .active {
+    background: #e8f5e9;
+    color: green;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.wise {
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #222;
+}
+
+.btn {
+    background: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: darkgreen;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f8f9fa;
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-btn {
+    width: 32px;
+    height: 32px;
+    background: #222;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+}
+
+.toggle-circle {
+    width: 14px;
+    height: 14px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    transition: transform 0.3s;
+}
+
+/* Sign-up Button */
+.sign-up-btn {
+    display: flex;
+    align-items: center;
+    padding: 0px 2px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+}
+/* sing up */
+.sign-up-btn:hover {
+    background: silver;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"> <a href="https://mizzle.webestica.com/index.html">Mizzle</a></div>
+        <nav>
+            <ul>
+                <nav class="navbar">
+                    <ul class="menu">
+                        <li class="dropdown">
+                            <a href="">Demos ▼</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="active">Classic Default</a></li>
+                                <li><a href="">Creative Agency</a></li>
+                                <li><a href="">Digital Agency</a></li>
+                                <li><a href="">Design Agency</a></li>
+                                <li><a href="">SEO Agency</a></li>
+                                <li><a href="">Product Landing</a></li>
+                                <li><a href="">Mobile App Showcase</a></li>
+                            </ul>
+       </nav>
+                          
+<nav class="navbar">
+    <ul class="menu">
+        <li class="dropdown">
+            <a href="#">Pages ▼</a>
+            <ul class="dropdown-menu">
+                <li><a href="" class="active">About</a></li>
+                <li><a href="">Contact v.1</a></li>
+                <li><a href="">Contact v.2</a></li>
+                <li><a href="">SaaS Pages</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Specialty Pages</a></li>
+                <li><a href="">Authentication</a></li>
+                <li><a href="">Accounts</a></li>
+                <li><a href="">RTL demo</a></li>
+                <li><a href="">Support</a></li>
+            </ul>                 
+        </nav>
+                                
+ <nav class="navbar">
+    <ul class="menu">
+        <li class="dropdown">
+            <a href="#">Pages ▼</a>
+            <ul class="dropdown-menu">
+                <li><a href="" class="active">About</a></li>
+                <li><a href="">Contact v.1</a></li>
+                <li><a href="">Contact v.2</a></li>
+                <li><a href="">SaaS Pages</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Specialty Pages</a></li>
+                <li><a href="">Authentication</a></li>
+                <li><a href="">Accounts</a></li>
+                <li><a href="">RTL demo</a></li>
+                <li><a href="">Support</a></li>
+            </ul> 
+        </nav>                  
+                                                          
+<nav class="navbar">
+    <ul class="menu">
+        <li class="dropdown">
+            <a href="#">Portfolio ▼</a>
+            <ul class="dropdown-menu">
+                <li><a href="" class="active">Portfolio Masonry</a></li>
+                <li><a href="">Portfolio Showcase</a></li>
+                <li><a href="">Portfolio List</a></li>
+                <li><a href="">Design Agency</a></li>
+                <li><a href="">Portfolio Case Study v.1</a></li>
+                <li><a href="">Portfolio Case Study v.2</a></li>
+                
+            </ul>
+            </nav>
+
+
+  <nav class="navbar">
+     <ul class="menu">
+         <li class="dropdown">
+             <a href="#">Megamenu ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="" class="active">Useful links</a></li>
+                     <li><a href="">Market research</a></li>
+                        <li><a href="">Advertising</a></li>
+                          <li><a href="">Consumer behavior</a></li>
+                             <li><a href="">Digital marketing</a></li>
+                               <li><a href="">Marketing ethics</a></li>
+                                 <li><a href="">Social media marketing</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav class="navbar">
+                <ul class="menu">
+                    <li class="dropdown">
+                        <a href="#">Contact us</a>
+                    </nav>
+                                
+            
+            </ul>
+        </nav>
+
+        <div class="navbar">
+            <button id="dark-mode-toggle" class="dark-mode-btn">
+                <div class="toggle-circle"></div>
+            </button>
+    
+            <button class="sign-up-btn">
+                <span class="user-icon">Sign up</span><br><br>
+
+                <button class="buy-now">Buy now!</button>
+                
+            </button>
+        </div>
+
+       
+    </header>
+
+    <section class="Pranay">
+        <h1>Creative studio focused on <span class="highlight">Web Design</span></h1>
+        <p>From concept to execution, we deliver web designs that make an impact.</p>
+        <input type="email" placeholder="Enter your email address">
+        <button class="start-trial">Start trial!</button>
+    </section>
+
+    
+           
+        </ul>
+    </nav>
+
+    <div class="wise">
+        <h2>Ready to get started?</h2>
+        <p>Take your documents to the next level with Mizzle</p>
+        <button class="btn">Get in touch</button>
+    </div>
+
+</body>
+</html>
